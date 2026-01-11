@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lifeinvader</title>
+<style>
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #fdeaea;
+}
+
+header {
+    background: linear-gradient(#c80000, #9b0000);
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+header span {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr 300px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar, .ads, .main {
+    background: #fff;
+    border: 1px solid #f2bcbc;
+}
+
+.sidebar {
+    padding: 15px;
+    background: #fdeaea;
+}
+
+.main {
+    padding: 20px;
+}
+
+.ads {
+    padding: 15px;
+    background: #fdeaea;
+}
+
+.profile {
+    display: flex;
+    gap: 15px;
+}
+
+.image-box {
+    background: #bdbdbd;
+    width: 120px;
+    height: 120px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    color: #b30000;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.nav-item {
+    text-align: center;
+    font-size: 13px;
+    color: #b30000;
+}
+
+.nav-item .image-box {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 5px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin: 15px 0 10px;
+    color: #b30000;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.list-item .image-box {
+    width: 40px;
+    height: 40px;
+}
+
+.message {
+    border: 1px solid #f2bcbc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.message-header {
+    font-weight: bold;
+    color: #b30000;
+}
+
+.ad-box {
+    background: #bdbdbd;
+    height: 70px;
+    margin-bottom: 15px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Lifeinvader</h1>
+    <span>INFLATE YOURSELF ONLINE</span>
+</header>
+
+<div class="container">
+
+    <div class="sidebar">
+        <div class="section-title">Family 3</div>
+        <div class="list-item">
+            <div class="image-box"></div>
+            Amanda De Santa
+        </div>
+
+        <div class="section-title">Friends 6</div>
+        <div class="list-item">
+            <div class="image-box"></div>
+            Kyle Chavis
+        </div>
+
+        <div class="section-title">Stalking 1</div>
+        <div class="list-item">
+            <div class="image-box"></div>
+            Redwood Cigarettes
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="profile">
+            <div class="image-box"></div>
+            <div class="profile-info">
+                <h2>Michael De Santa</h2>
+                <p>Occupation: Retired</p>
+                <p>Relationship Status: Just about married</p>
+
+                <div class="nav-icons">
+                    <div class="nav-item">
+                        <div class="image-box"></div>
+                        Photos
+                    </div>
+                    <div class="nav-item">
+                        <div class="image-box"></div>
+                        Friends
+                    </div>
+                    <div class="nav-item">
+                        <div class="image-box"></div>
+                        Stalking
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">Messages</div>
+
+        <div class="message">
+            <div class="message-header">Lester Crest</div>
+            <p>Wow, you really made yourself hard to find with the whole family on here.</p>
+        </div>
+
+        <div class="message">
+            <div class="message-header">Lester Crest</div>
+            <p>Ok, I'd say you've atoned for that decade of poor friendship.</p>
+        </div>
+
+        <div class="message">
+            <div class="message-header">Hayden Dubose</div>
+            <p>I saw a guy dressed like a moronic teenager who looked the spit of you.</p>
+        </div>
+    </div>
+
+    <div class="ads">
+        <div class="section-title">SPONSORED ADVERTS</div>
+        <div class="ad-box"></div>
+        <div class="ad-box"></div>
+        <div class="ad-box"></div>
+        <div class="ad-box"></div>
+        <div class="ad-box"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
